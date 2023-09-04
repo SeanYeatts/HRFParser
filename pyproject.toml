@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "hrfparser"
+version = "0.0.3"
+authors = [
+  { name="Sean Yeatts" },
+]
+description = "A convenience pipeline for working with Human-Readable Formats ( HRFs ) such as YAML and JSON."
+readme = "README.rst"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"GitHub" = "https://github.com/SeanYeatts/hrfparser.git"
