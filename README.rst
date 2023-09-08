@@ -15,3 +15,11 @@ Features:
 Current supported HRFs:
     - YAML
     - JSON
+    
+Methods:
+    - read() : read raw HRF from file
+    - write() : write raw HRF to destination
+    - unpack() : read and flatten HRF data from file
+    - pack() : fold HRF data and write to destination
+    - flatten() : deconstruct nested data as single key-value pairs
+    - fold() : rebuild data as nested key-value pairs
